@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+    min-height:1000px ;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table thead{
+    border-bottom: 2px solid #fff;
+    margin-bottom:20px;
+}
+.table .tritem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+}
+.table th{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px 0;
+}
